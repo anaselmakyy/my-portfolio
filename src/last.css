@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-image: url('/public/redcyber.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: rgb(8, 5, 5);
+}
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+}
+nav{
+    backdrop-filter: blur(10px);
+}
+#welcome {
+  position: relative;
+}
+
+.typing-content::before,
+.typing-content::after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  border-right: .15em solid rgb(255, 0, 0);
+  white-space: nowrap;
+  animation: typing 3s steps(80, end) forwards infinite;
+}
+
+.typing-content::after {
+  content: "Hi There !";
+  animation-delay: 3s; /* Delay after the first animation cycle */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.hid{
+  opacity:0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2s ease-in-out;
+}
+.show{
+  opacity:1;
+  filter: blur(0);
+  transform: translateX(0);
+}
