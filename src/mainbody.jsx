@@ -1,20 +1,10 @@
 import "./App.css";
 
 import React, { useState, useEffect } from "react";
-import ScrollReveal from "scrollreveal";
+
 
 export default function Mainbody (){
 
-      ScrollReveal({
-        reset: true,
-        distance: "60px",
-        duration: 1000,
-        delay: 1000,
-      });
-      ScrollReveal().reveal(".name,.picture", { delay: 500, origin: "top" });
-      ScrollReveal().reveal(".welcome,.resume,.description", {delay: 500,origin: "right",});
-      ScrollReveal().reveal(".buttons", { delay: 500, origin: "bottom" });
-      ScrollReveal().reveal(".cvbutton", { delay: 500, origin: "right" });
 
   return (
     <div>
@@ -23,7 +13,7 @@ export default function Mainbody (){
         className="flex flex-col lg:flex-row md:justify-between mt-[15%] md:mt-[3%] "
         
       >
-        <div className="body-text-section ml-[4%] z-[-1] md:z-0" id="button">
+        <div className="body-text-section ml-[4%] md:z-0" id="button">
           <div className="">
             <h2 className="text-white font-poppins font-bold text-3xl md:text-4xl welcome">
               Hello , It's Me

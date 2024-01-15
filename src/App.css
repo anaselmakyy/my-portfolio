@@ -89,9 +89,14 @@ nav{
 }
 
 .scroller {
-  max-width: 600px;
+  max-width: 400px;
 }
 
+@media screen and (min-width:800px) {
+  .scroller {
+    max-width: 80%;
+  }
+}
 .scroller__inner {
   padding-block: 1rem;
   display: flex;
@@ -176,7 +181,5 @@ body {
   box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
 }
 
-/* for testing purposed to ensure the animation lined up correctly */
-.test {
-  background: red !important;
-}
+
+

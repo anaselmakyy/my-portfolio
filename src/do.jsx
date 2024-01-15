@@ -1,24 +1,11 @@
 import "./App.css";
 
 import React, { useState, useEffect } from "react";
-import ScrollReveal from "scrollreveal";
+
 
 export default function Do(){
-    ScrollReveal({
-        reset: true,
-        distance: "60px",
-        duration: 1000,
-        delay: 1000,
-      });
-    ScrollReveal().reveal(".picfront,.backdescription", {
-        delay: 500,
-        origin: "left",
-      });
-      ScrollReveal().reveal(".picback,.frontdescription", {
-        delay: 500,
-        origin: "right",
-      });
-      ScrollReveal().reveal(".about-title", { delay: 500, origin: "left" });
+
+
   return (
     <div>
             <div className="mt-[10%] flex flex-col justify-center items-center">

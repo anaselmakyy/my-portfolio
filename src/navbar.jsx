@@ -74,8 +74,10 @@ export default function Navbar(){
         >
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
             <a
-              href="#home"
-              onClick={() => setMenuOpen(!isMenuOpen)}
+              href="#"
+              onClick={() => {
+                setMenuOpen(!isMenuOpen);
+              toggleMenu()}}
               className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold"
             >
               HOME
@@ -83,8 +85,10 @@ export default function Navbar(){
           </li>
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
             <a
-              href="#main"
-              onClick={() => setMenuOpen(!isMenuOpen)}
+              href="#"
+              onClick={() => {
+                setMenuOpen(!isMenuOpen);
+              toggleMenu()}}
               className="text-white text-3xl hover:text-cyan  duration-500 font-poppins font-bold"
             >
               SKILLS
@@ -93,7 +97,9 @@ export default function Navbar(){
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
             <a
               href="#"
-              onClick={() => setMenuOpen(!isMenuOpen)}
+              onClick={() => {
+                setMenuOpen(!isMenuOpen);
+              toggleMenu()}}
               className="text-white text-3xl hover:text-cyan  duration-500 font-poppins font-bold"
             >
               ABOUT
@@ -102,7 +108,9 @@ export default function Navbar(){
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
             <a
               href="#"
-              onClick={() => setMenuOpen(!isMenuOpen)}
+              onClick={() => {
+                setMenuOpen(!isMenuOpen);
+              toggleMenu()}}
               className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold"
             >
               CONTACT

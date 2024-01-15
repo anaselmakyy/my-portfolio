@@ -52,6 +52,23 @@
   animation: tailwind 5s;
 }
 
+.leadership {
+  width: 90%;
+  animation: php 5s;
+}
+.calm{
+  width: 65%;
+  animation: sql 5s;
+}
+.comm {
+  width: 85%;
+  animation: tailwind 5s;
+}
+
+.stress {
+  width: 85%;
+  animation: tailwind 5s;
+}
 @keyframes html{
     0%{
         width: 0%;
@@ -117,4 +134,61 @@
     }
 }
 
+.leadership {
+  width: 90%;
+  animation: leadership 5s;
+}
 
+@keyframes leadership{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 90%;
+  }
+}
+
+.calm{
+  width: 65%;
+  animation: calm 5s;
+}
+
+@keyframes calm{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 75%;
+  }
+}
+.comm {
+  width: 85%;
+  animation: comm 5s;
+}
+@keyframes comm{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 85%;
+  }
+}
+
+.stress {
+  width: 85%;
+  animation: stress 5s;
+}
+
+@keyframes stress{
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 85%;
+  }
+}
+
+.skill:hover {
+  box-shadow: 14px 14px 28px 14px rgba(180, 179, 179, 0.25), 0 10px 10px rgba(180, 179, 179, 0.25);
+  cursor: pointer;
+}

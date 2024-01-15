@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import './skills.css'
 
 import React, { useState, useEffect } from "react";
 import ScrollReveal from "scrollreveal";
@@ -7,31 +8,39 @@ import Navbar from "./navbar";
 import Mainbody from "./mainbody";
 import Do from "./do";
 import Skills from "./skills";
+import Projects from "./projects";
 export default function App() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [button, setButton] = useState(false);
-  ScrollReveal({
+
+
+
+useEffect(() => {
+  const sr = ScrollReveal({
     reset: true,
     distance: "300px",
     duration: 2000,
     delay: 1000,
   });
-  ScrollReveal().reveal(".name,.picture", { delay: 500, origin: "top" });
-  ScrollReveal().reveal(".welcome,.resume,.description", {
-    delay: 500,
-    origin: "right",
-  });
-  ScrollReveal().reveal(".buttons", { delay: 500, origin: "bottom" });
-  ScrollReveal().reveal(".cvbutton", { delay: 500, origin: "right" });
-  ScrollReveal().reveal(".picfront,.backdescription", {
+  sr.reveal(".name,.picture", { delay: 500, origin: "top" });
+  sr.reveal(".welcome,.resume,.description", {delay: 500,origin: "right"});
+  sr.reveal(".buttons", { delay: 500, origin: "bottom" });
+  sr.reveal(".cvbutton", { delay: 500, origin: "right" });
+  sr.reveal(".picfront,.backdescription", {
     delay: 500,
     origin: "left",
   });
-  ScrollReveal().reveal(".picback,.frontdescription", {
+  sr.reveal(".picback,.frontdescription", {
     delay: 500,
     origin: "right",
   });
-  ScrollReveal().reveal(".about-title", { delay: 500, origin: "left" });
+  sr.reveal(".about-title", { delay: 500, origin: "left" });
+  sr.reveal(".skill1", { delay: 500, origin: "left" });
+  sr.reveal(".skill2", { delay: 500, origin: "right" });
+  sr.reveal(".title,", { delay: 500, origin: "left" });
+  sr.reveal(".scroller,", {delay: 500, origin: "right",});
+
+}, []);
 
   const toggleMenu = () => {
     const link = document.getElementById("button");
@@ -44,12 +53,6 @@ export default function App() {
     }
   };
 
-
-
-
-
-
-
   
   return (
     <div className="App">
@@ -57,6 +60,7 @@ export default function App() {
       <Mainbody/>
       <Do/>
       <Skills/>
+      <Projects/>
     </div>
   );
 }
