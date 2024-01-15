@@ -180,6 +180,12 @@ body {
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
 }
+.teck:hover{
+  box-shadow: 14px 14px 28px 14px rgba(20, 189, 189, 0.25), 0 10px 10px rgba(20, 189, 189, 0.25);
+  cursor: pointer;
 
+}
 
-
+.realisation{
+  border-left: 2px solid black;
+}

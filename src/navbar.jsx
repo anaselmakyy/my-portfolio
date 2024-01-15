@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import { Link } from "react-scroll";
 import React, { useState, useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
@@ -29,11 +29,13 @@ export default function Navbar(){
             </h1>
           </div>
           <div className="flex md:hidden justify-end ">
+
             <span
               className=" cursor-pointer md:hidden block"
               onClick={toggleMenu}
               id="menu"
             >
+
               <svg
                 width="24"
                 height="24"
@@ -41,6 +43,9 @@ export default function Navbar(){
                 viewBox="0 0 24 24"
                 className="text-white w-10 h-full"
               >
+                                          <a 
+            target="_blank"
+            href="https://www.linkedin.com/in/anas-el-maky-360257262/">
                 <path
                   stroke="currentColor"
                   stroke-linecap="round"
@@ -62,59 +67,75 @@ export default function Navbar(){
                   stroke-width="1.5"
                   d="M4.75 12H19.25"
                 ></path>
+              </a>
+
               </svg>
             </span>
+            
           </div>
         </div>
 
         <ul
-          className={` md:flex flex-wrap md:justify-center text-center items-center bg-black  bg-opacity-100 md:bg-transparent z-10 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 ${
+          className={` md:flex flex-wrap md:justify-center text-center items-center bg-primary  bg-opacity-100 md:bg-transparent z-10 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 ${
             isMenuOpen ? "opacity-100 top-[80px]" : "opacity-0 top-[-300px]"
           } transition-all ease-in-out duration-500 `}
         >
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
-            <a
-              href="#"
-              onClick={() => {
-                setMenuOpen(!isMenuOpen);
-              toggleMenu()}}
-              className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold"
-            >
-              HOME
-            </a>
+          <Link
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  duration={800}
+                  className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
+                  onClick={() => {
+                    setMenuOpen(!isMenuOpen);
+                  toggleMenu()}}
+                >
+                  HOME
+                </Link>
+
           </li>
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
-            <a
-              href="#"
-              onClick={() => {
-                setMenuOpen(!isMenuOpen);
-              toggleMenu()}}
-              className="text-white text-3xl hover:text-cyan  duration-500 font-poppins font-bold"
-            >
-              SKILLS
-            </a>
+            <Link
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  duration={1300}
+                  className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
+                  onClick={() => {
+                    setMenuOpen(!isMenuOpen);
+                  toggleMenu()}}
+                >
+                  SKILLS
+            </Link>
           </li>
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
-            <a
-              href="#"
-              onClick={() => {
-                setMenuOpen(!isMenuOpen);
-              toggleMenu()}}
-              className="text-white text-3xl hover:text-cyan  duration-500 font-poppins font-bold"
-            >
-              ABOUT
-            </a>
+            <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  duration={1500}
+                  className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
+                  onClick={() => {
+                    setMenuOpen(!isMenuOpen);
+                  toggleMenu()}}
+                  >
+              PROJECTS
+            </Link>
           </li>
           <li className="md:mx-20 my-6 md:my-0 ml-[-8%] lg:ml-[0]">
-            <a
-              href="#"
-              onClick={() => {
-                setMenuOpen(!isMenuOpen);
-              toggleMenu()}}
-              className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold"
-            >
+          <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  duration={2000}
+                  className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
+                  onClick={() => {
+                    setMenuOpen(!isMenuOpen);
+                  toggleMenu()}}
+                  >
               CONTACT
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

@@ -65,49 +65,49 @@ export default function Skills() {
               <h3 className="">HTML5</h3>
 
               <span className="bar">
-                <span className="html" value="html"></span>
+                <span  id="html"></span>
               </span>
             </li>
             <li>
               <h3>CSS3</h3>
 
               <span className="bar">
-                <span className="css" value="css"></span>
+                <span  id="css"></span>
               </span>
             </li>
             <li>
               <h3>JAVASCRIPT</h3>
 
               <span className="bar">
-                <span className="js" value="js"></span>
+                <span  id="js"></span>
               </span>
             </li>
             <li>
               <h3>REACTJS</h3>
 
               <span className="bar">
-                <span className="react" value="react"></span>
+                <span  id="react"></span>
               </span>
             </li>
             <li>
               <h3>PHP</h3>
 
               <span className="bar">
-                <span className="php" value="php"></span>
+                <span  id="php"></span>
               </span>
             </li>
             <li>
               <h3>SQL</h3>
 
               <span className="bar">
-                <span className="sql" value="sql"></span>
+                <span  id="sql"></span>
               </span>
             </li>
             <li>
               <h3>tailwindcss</h3>
 
               <span className="bar">
-                <span className="tailwind" value="tailwind"></span>
+                <span  id="tailwind"></span>
               </span>
             </li>
           </div>
@@ -119,21 +119,21 @@ export default function Skills() {
               <h3 className="">Leadership</h3>
 
               <span className="bar">
-                <span className="leadership" value="leadership"></span>
+                <span  id="leadership"></span>
               </span>
             </li>
             <li>
               <h3>Team Work</h3>
 
               <span className="bar">
-                <span className="calm" value="calm"></span>
+                <span  id="calm"></span>
               </span>
             </li>
             <li>
               <h3>Communication</h3>
 
               <span className="bar">
-                <span className="comm" value="comm"></span>
+                <span  id="comm"></span>
               </span>
             </li>
 
@@ -141,7 +141,7 @@ export default function Skills() {
               <h3>Stress Management</h3>
 
               <span className="bar">
-                <span className="stress" value="comm"></span>
+                <span  id="stress"></span>
               </span>
             </li>
           </div>

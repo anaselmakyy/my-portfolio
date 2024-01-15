@@ -2,9 +2,15 @@ import "./App.css";
 
 import React, { useState, useEffect } from "react";
 
-
+import ScrollReveal from "scrollreveal";
 export default function Mainbody (){
 
+  const sr = ScrollReveal({
+    reset: true,
+    distance: "300px",
+    duration: 2000,
+    delay: 1000,
+  });
 
   return (
     <div>

@@ -7,8 +7,8 @@ export default function Do(){
 
 
   return (
-    <div>
-            <div className="mt-[10%] flex flex-col justify-center items-center">
+    <div id="do">
+            <div className="mt-[10%] flex flex-col justify-center items-center" >
         <div>
           <h1 className="text-white font-poppins font-bold text-5xl md:text-7xl about-title" >
             WHAT I DO ?
