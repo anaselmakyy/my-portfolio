@@ -100,7 +100,7 @@ export default function Navbar(){
                   to="skills"
                   spy={true}
                   smooth={true}
-                  duration={1300}
+                  duration={1700}
                   className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
                   onClick={() => {
                     setMenuOpen(!isMenuOpen);
@@ -114,7 +114,7 @@ export default function Navbar(){
                   to="projects"
                   spy={true}
                   smooth={true}
-                  duration={1500}
+                  duration={2000}
                   className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
                   onClick={() => {
                     setMenuOpen(!isMenuOpen);
@@ -128,7 +128,7 @@ export default function Navbar(){
                   to="contact"
                   spy={true}
                   smooth={true}
-                  duration={2000}
+                  duration={2500}
                   className="text-white text-3xl hover:text-cyan duration-500 font-poppins font-bold cursor-pointer"
                   onClick={() => {
                     setMenuOpen(!isMenuOpen);

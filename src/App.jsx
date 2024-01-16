@@ -113,7 +113,7 @@ useEffect(() => {
   return (
     <>
 
-        <div className="App">
+        <div className="App overflow-hidden">
         <Navbar/> 
         <Mainbody/>
         <Do/>

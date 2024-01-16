@@ -31,7 +31,7 @@ export default function Contact(){
             
             <div className='flex flex-col items-center md:w-[56%] text-center mt-[15%] md:mt-[0%]  realisation' >
             <h1 className='text-black font-poppins font-bold text-4xl'>Realised By :</h1>
-            <h1 className='font-poppins font-bold text-6xl text-primary mt-[1%]'>Anas El Maky</h1>
+            <h1 className='font-poppins font-bold text-5xl md:text-6xl text-primary mt-[1%]'>Anas El Maky</h1>
             <h1 className='font-poppins font-bold text-6xl md:text-7xl text-black mt-[1%]'>EA</h1>
             <div className='flex flex-row justify-around md:mt-[10%] mt-[13%]'>
 
