@@ -57,7 +57,7 @@ export default function Skills() {
         
       </div>
       <div className="flex flex-col md:flex-row items-center md:justify-around">
-          <div className="mt-[5%] md:mt-[10%] skill  w-[350px] md:w-[200%] xl:w-[45%] text-white p-[20px] skill1">
+          <div className="mt-[5%] md:mt-[10%] skill  w-[320px] md:w-[200%] xl:w-[45%] text-white p-[20px] skill1 ">
             <h1 className="text-center text-white font-poppins font-bold text-3xl md:text-5xl">
               Technical Skills :
             </h1>
@@ -111,7 +111,7 @@ export default function Skills() {
               </span>
             </li>
           </div>
-          <div className="mt-[5%] md:mt-[10%] skill  w-[350px] md:w-[200%] xl:w-[45%] text-white p-[20px] skill2">
+          <div className="mt-[5%] md:mt-[10%] skill  w-[320px] md:w-[200%] xl:w-[45%] text-white p-[20px] skill2">
           <h1 className="text-center text-white font-poppins font-bold text-3xl md:text-5xl">
               Professional Skills :
             </h1>

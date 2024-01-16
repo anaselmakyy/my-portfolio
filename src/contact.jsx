@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact(){
   return (
     <div className='mt-[17%]' id='contact'>
-      <h1 className='text-white font-poppins font-bold text-xl md:text-7xl text-center md:text-xl quote'>Feel free to check out my repositories and drop a ⭐ if you find something interesting!</h1>
+      <h1 className='text-white font-poppins font-bold text-[20px] md:text-7xl text-center md:text-xl quote ml-[2%] mr-[2%] md:ml-[0%] md:mr-[0%]'>Feel free to check out my repositories and drop a ⭐ if you find something interesting!</h1>
       <h1 className='text-white font-poppins font-bold text-5xl md:text-7xl text-center mt-[20%] connect'>Let's Connect</h1>
       <div className='bg-white w-[100%] mt-[35%] md:mt-[10%]'>
         <div className="p-[5%]">

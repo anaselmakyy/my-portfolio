@@ -52,7 +52,7 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row justify-center md:justify-center items-center md:mt-[10%]">
           <img src="./morocco.png" alt="" className="pictureprojects w-[70%] md:w-[30%] rounded-lg md:ml-[8%]"/>
           <div className="flex flex-col justify-center items-center descriptionprojects1">
-            <h1 className="font-poppins font-bold text-2xl text-white underline p-[3%] rounded-3xl hover:bg-white hover:text-primary hover:cursor-pointer md:text-5xl translate-y-[60%]  md:hover:bg-transparent">Country-Game-Learning Project :</h1>
+            <h1 className="font-poppins font-bold text-xl text-white underline p-[3%] rounded-3xl hover:bg-white hover:text-primary hover:cursor-pointer md:text-5xl translate-y-[60%]  md:hover:bg-transparent">Country-Game-Learning Project :</h1>
             <p className="m-[10%] bg-slate-600 p-[4%]  rounded-lg teck md:text-2xl md:p-[8%] md:ml-[-5%]">
               <span className="text-cyan">Description:</span> <br /> Created a dynamic and engaging country-learning application featuring comprehensive information lookup, flag recognition games, and capital quizzes. Utilized a user-friendly interface to enhance the learning experience and foster geographical knowledge. Demonstrated skills in full-stack development, design, and educational content creation.
             </p>

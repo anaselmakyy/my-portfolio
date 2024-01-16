@@ -16,7 +16,7 @@ export default function Mainbody (){
     <div>
             <div
         id="main"
-        className="flex flex-col lg:flex-row md:justify-between mt-[15%] md:mt-[3%] "
+        className="flex flex-col lg:flex-row md:justify-between mt-[15%] md:mt-[3%] ml-[2%] md:ml-[0%]"
         
       >
         <div className="body-text-section ml-[4%] md:z-0" id="button">
