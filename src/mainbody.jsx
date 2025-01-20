@@ -48,7 +48,7 @@ export default function Mainbody (){
           </div>
           <div className="mt-[6%] md:mt-[3%] md:ml-[2%] cv">
             <a
-              href="https://drive.google.com/file/d/1mR05xXbsce6cClbnBMctUmlS7rM4joLX/view?usp=sharing"
+              href="https://drive.google.com/file/d/1CMgG-LiKISAS3pP4D0aPhCS9G_jGXnPQ/view?usp=drive_link"
               className=" text-primary bg-cyan p-[4%] rounded-3xl text-xl font-poppins font-bold hover:bg-emerald-600 hover:text-primary hover:cursor-pointer md:p-[2%] cvbutton"
               target="_blank"
             >
