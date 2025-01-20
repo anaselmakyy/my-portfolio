@@ -75,7 +75,7 @@ export default function Mainbody (){
         >
           <p className="text-cyan font-poppins font-bold">+9</p>
           <p className="text-white font-poppins font-bold hover:text-cyan">
-            &nbsp;Technology
+            &nbsp;Technologies
           </p>
         </div>
         <div
